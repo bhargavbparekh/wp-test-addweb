@@ -1,0 +1,14 @@
+2021-03-27T04:14:29+00:00 CRITICAL syntax error, unexpected 'total_sales' (T_STRING), expecting ')' in C:\xampp\htdocs\wp-test\wp-content\plugins\wp-admin-cunstomization\wp-admin-cunstomization.php on line 25
+
+2021-03-27T04:14:29+00:00 CRITICAL syntax error, unexpected 'total_sales' (T_STRING), expecting ')' in C:\xampp\htdocs\wp-test\wp-content\plugins\wp-admin-cunstomization\wp-admin-cunstomization.php on line 25
+
+2021-03-27T04:51:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function prefix_after_cart_item_name(), 1 passed in C:\xampp\htdocs\wp-test\wp-includes\class-wp-hook.php on line 292 and exactly 2 expected in C:\xampp\htdocs\wp-test\wp-content\plugins\wp-admin-cunstomization\wp-admin-cunstomization.php:50
+Stack trace:
+#0 C:\xampp\htdocs\wp-test\wp-includes\class-wp-hook.php(292): prefix_after_cart_item_name('')
+#1 C:\xampp\htdocs\wp-test\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp-test\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp-test\wp-content\plugins\woocommerce\templates\cart\cart.php(136): do_action('woocommerce_car...')
+#4 C:\xampp\htdocs\wp-test\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp-test\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#6 C:\xampp\htdocs\wp-test\wp-content\plugins\woocomme in C:\xampp\htdocs\wp-test\wp-content\plugins\wp-admin-cunstomization\wp-admin-cunstomization.php on line 50
+

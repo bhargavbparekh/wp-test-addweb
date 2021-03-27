@@ -1,0 +1,24 @@
+2021-03-26T17:07:53+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wp-test\wp-content\themes\twentytwentyone-child\functions.php on line 47
+
+2021-03-26T17:20:56+00:00 CRITICAL Uncaught Error: Call to undefined function is_virtual() in C:\xampp\htdocs\wp-test\wp-content\themes\twentytwentyone-child\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\wp-test\wp-includes\class-wp-hook.php(292): genrate_unique_coupan_code(54)
+#1 C:\xampp\htdocs\wp-test\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp-test\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp-test\wp-content\plugins\woocommerce\templates\checkout\thankyou.php(80): do_action('woocommerce_tha...', 54)
+#4 C:\xampp\htdocs\wp-test\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp-test\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\wp-test\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(54)
+#7 C:\xampp\htdocs\w in C:\xampp\htdocs\wp-test\wp-content\themes\twentytwentyone-child\functions.php on line 17
+
+2021-03-26T18:20:35+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_coupan_specific_email(), 1 passed in C:\xampp\htdocs\wp-test\wp-includes\class-wp-hook.php on line 292 and exactly 5 expected in C:\xampp\htdocs\wp-test\wp-content\themes\twentytwentyone-child\functions.php:52
+Stack trace:
+#0 C:\xampp\htdocs\wp-test\wp-includes\class-wp-hook.php(292): add_coupan_specific_email('7YMWCFG9')
+#1 C:\xampp\htdocs\wp-test\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp-test\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp-test\wp-content\themes\twentytwentyone-child\functions.php(22): do_action('woocommerce_ema...', '7YMWCFG9')
+#4 C:\xampp\htdocs\wp-test\wp-includes\class-wp-hook.php(292): genrate_unique_coupan_code(63)
+#5 C:\xampp\htdocs\wp-test\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wp-test\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wp-test\wp-content\plugins\woocomm in C:\xampp\htdocs\wp-test\wp-content\themes\twentytwentyone-child\functions.php on line 52
+
